@@ -9,15 +9,19 @@
 
 <p th:unless="${events} and ${events.size()}">No events!</p>
 
-<table>
+<table class="table table-striped">
     <thead>
     <tr>
         <th>Name</th>
+        <th>Description</th>
     </tr>
     </thead>
+    <tbody>
     <tr th:each="event : ${events}">
-        <td th:text="${event}"></td>
+        <td th:text="${event.name}"></td>
+        <td th:text="${event.description}"></td>
     </tr>
+    </tbody>
 </table>
 
 </body>
