@@ -1,4 +1,44 @@
 body {
-    font-size: 32px;
-    color:blueviolet;
+    font-size: 24px;
 }
+.error {
+color: red;
+}
+body {
+ background-color: #e8e8e8;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    }
+
+ /* styles.css */
+
+ .nav {
+     list-style-type: none;  /* Remove bullets */
+     padding: 0;             /* Remove default padding */
+     margin: 0;              /* Remove default margin */
+     display: flex;          /* Display as a flex container */
+     justify-content: space-around; /* Distribute items evenly */
+     background-color: #333; /* Background color */
+ }
+
+ .nav-item {
+     margin: 0;              /* Remove default margin */
+ }
+
+ .nav-link {
+     display: block;         /* Make links block-level */
+     color: white;           /* Text color */
+     text-align: center;     /* Center text */
+     padding: 14px 20px;     /* Padding */
+     text-decoration: none;  /* Remove underline */
+ }
+
+ .nav-link:hover {
+     background-color: #575757; /* Change background on hover */
+ }
+
